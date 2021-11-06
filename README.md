@@ -1,4 +1,4 @@
-# A Very Simple CMake Template Project
+# A Simple CMake Template Project
 
 This is a very simple, bare-bones cmake project template.
 
