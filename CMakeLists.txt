@@ -8,5 +8,3 @@ set(CMAKE_CXX_STANDARD 20)
 
 # configure src directory
 add_subdirectory(src)
-# configure test directory
-add_subdirectory(test)

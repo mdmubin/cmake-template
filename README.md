@@ -22,7 +22,8 @@ and cpp files included as examples.
     git clone https://github.com/mdmubin/cmake-template.git
     ```
 
-2. Open clone directory, create build directory and change current directory to build directory:
+2. Open clone directory, create build directory and change current directory to
+build directory:
     ```
     cd cmake-template
     mkdir build
@@ -43,7 +44,9 @@ and cpp files included as examples.
     cmake --build . --config Release
     ```
 
-The executable/library file built by cmake should now be present in `build/src/[Debug or Release]`
+I am using `MSVC` compiler and for me the executable/library file built by cmake
+is present in `../project-root/build/src/[Debug or Release]/`. If you are using
+a different compiler, you might not find it in the same directory as I did.
 
 ---
 
@@ -55,7 +58,7 @@ project_root/
   |
   |---> external/
   |       |---> include/ (external include headers)
-  |       |---> libs/ (external library files, for example: .lib, .dll,.a, .so, etc)
+  |       |---> libs/ (external library files, for example: .lib, .dll, etc)
   |
   |---> src/
   |       |---> include/ (public headers for your library goes here)
@@ -74,6 +77,9 @@ project_root/
 
 * ## List of useful CMake resources
   - [CMake Official Documentation](https://cmake.org/cmake/help/latest/)
-  - [Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
   - [How to Make CMake Good - Video Series](https://youtube.com/playlist?list=PLK6MXr8gasrGmIiSuVQXpfFuE1uPT615s)
+  - [Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
   - [Modern CPP Starter](https://github.com/TheLartians/ModernCppStarter)
+
+
+* **I plan to add how to do tests, as soon as I learn more about it**
