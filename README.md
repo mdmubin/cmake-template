@@ -51,6 +51,8 @@ a different compiler, you might not find it in the same directory as I did.
 ---
 
 * ## Directory Structure:
+  This is just a directory structure that I personally think manages to arrange
+  every file in a neat manner.
 ```
 project_root/
   |---> build/
