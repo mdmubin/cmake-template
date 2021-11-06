@@ -44,3 +44,5 @@ project_root/
   |---> LICENCE.txt
   |---> README.md
 ```
+
+* ## List of useful CMake resources to help you if you are stuck
