@@ -84,4 +84,4 @@ project_root/
   - [Modern CPP Starter](https://github.com/TheLartians/ModernCppStarter)
 
 
-* **I plan to add how to do tests, as soon as I learn more about it**
+* **I plan to add a simple cmake test script, as soon as I learn more about it**
