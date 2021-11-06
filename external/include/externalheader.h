@@ -1,0 +1,6 @@
+#ifndef TEMPLATE_EXTERNAL_HEADER_H
+#define TEMPLATE_EXTERNAL_HEADER_H
+
+void somefunction();
+
+#endif //TEMPLATE_EXTERNAL_HEADER_H
