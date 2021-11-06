@@ -22,7 +22,7 @@ and cpp files included as examples.
     git clone https://github.com/mdmubin/cmake-template.git
     ```
 
-2. Open repository clone directory, create build directory and move to build directory:
+2. Open clone directory, create build directory and change current directory to build directory:
     ```
     cd cmake-template
     mkdir build
