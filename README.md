@@ -17,6 +17,33 @@ and cpp files included as examples.
 
 * ## Build Instructions
 
+1. Clone Repository:
+    ```
+    git clone https://github.com/mdmubin/cmake-template.git
+    ```
+
+2. Open repository clone directory, create build directory and move to build directory:
+    ```
+    cd cmake-template
+    mkdir build
+    cd build
+    ```
+
+3. Configure cmake:
+    ```
+    cmake ..
+    ```
+4. Build project:
+  - debug mode
+    ```
+    cmake --build . --config Debug
+    ```
+  - release mode
+    ```
+    cmake --build . --config Release
+    ```
+
+The executable/library file built by cmake should now be present in `build/src/[Debug or Release]`
 
 ---
 
@@ -45,4 +72,8 @@ project_root/
   |---> README.md
 ```
 
-* ## List of useful CMake resources to help you if you are stuck
+* ## List of useful CMake resources
+  - [CMake Official Documentation](https://cmake.org/cmake/help/latest/)
+  - [Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
+  - [How to Make CMake Good - Video Series](https://youtube.com/playlist?list=PLK6MXr8gasrGmIiSuVQXpfFuE1uPT615s)
+  - [Modern CPP Starter](https://github.com/TheLartians/ModernCppStarter)
