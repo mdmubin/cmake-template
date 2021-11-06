@@ -4,6 +4,22 @@ This is a very simple, bare-bones cmake project template.
 
 ---
 
+This project was originally created by me to learn about the cmake build system.
+A lot of cmake resources that I've looked into just seem very tedious and
+boring. My original sentiment was something along the lines of, "I just want to
+start coding, I don't care about any of this..."
+
+So this template is just here to serve as a bare bones starting point, to get
+you up and running with a very simple project structure with some template cmake
+and cpp files included as examples.
+
+---
+
+* ## Build Instructions
+
+
+---
+
 * ## Directory Structure:
 ```
 project_root/
@@ -28,6 +44,3 @@ project_root/
   |---> LICENCE.txt
   |---> README.md
 ```
----
-* ## Build Instructions
-
