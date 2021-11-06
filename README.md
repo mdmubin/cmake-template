@@ -17,24 +17,24 @@ and cpp files included as examples.
 
 * ## Build Instructions
 
-1. Clone Repository:
+1. **Clone Repository**:
     ```
     git clone https://github.com/mdmubin/cmake-template.git
     ```
 
-2. Open clone directory, create build directory and change current directory to
-build directory:
+2. **Open clone directory, create build directory and change current directory to
+build directory**:
     ```
     cd cmake-template
     mkdir build
     cd build
     ```
 
-3. Configure cmake:
+3. **Configure cmake**:
     ```
     cmake ..
     ```
-4. Build project:
+4. **Build project**:
   - debug mode
     ```
     cmake --build . --config Debug
