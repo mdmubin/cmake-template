@@ -1,5 +1,5 @@
 # add build directory to .gitignore
-# build/
+build/
 
 # add vscode settings to .gitignore
 .vscode/
