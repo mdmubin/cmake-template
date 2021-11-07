@@ -68,7 +68,7 @@ project_root/
   |       |---> CMakeLists.txt
   |
   |---> test/
-  |       |---> ... (test source files, )
+  |       |---> ... (test source files)
   |       |---> CMakeLists.txt
   |
   |---> .gitignore
